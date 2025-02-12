@@ -10,7 +10,6 @@ int main()
     int hair_color = 0, eye_color = 0;
 
     fgets(input, sizeof(input), stdin);
-
     char *token = strtok(input, " \n");
     while (token != NULL) {
         if (strcmp(token, "ma") == 0) {
